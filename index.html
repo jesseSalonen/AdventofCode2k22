@@ -25,15 +25,97 @@
             </div>
             <div class="sidebar">
                 <a href="#" class="active">
-                    <img src="./images/numbers/1.png" alt="number_1" class="filtered-active">
+                    <img src="./images/numbers/1.png" alt="number_1">
                     <h3>Day 1</h3>
                 </a>
                 <a href="#">
-                    <img src="./images/numbers/2.png" alt="number_2" class="filtered">
+                    <img src="./images/numbers/2.png" alt="number_2">
                     <h3>Day 2</h3>
                 </a>
             </div>
         </aside>
+        <!----------------- END OF ASIDE ------------------>
+        <main>
+            <h1>Tasks</h1>
+
+            <div class="date">
+                <input type="date">
+            </div>
+
+            <div class="tasks">
+                <div class="task-1">
+                    <span class="material-icons-sharp">star_half</span>
+                    <div class="middle">
+                        <div class="task-text">
+                            <h1>Task heading</h1>
+                            <h3>Task description</h3>
+                        </div>
+                        <div class="task-answer">
+                            <img src="./images/code snippets/Test snippet.png" alt="test-snippet">
+                        </div>
+                    </div>
+                </div>
+                <!--------- END OF TASK 1 --------->
+                <div class="task-2">
+                    <span class="material-icons-sharp">star</span>
+                    <div class="middle">
+                        <div class="task-text">
+                            <h1>Task heading</h1>
+                            <h3>Task description</h3>
+                        </div>
+                        <div class="task-answer">
+                            <img src="./images/code snippets/Test snippet.png" alt="test-snippet">
+                        </div>
+                    </div>
+                </div>
+                <!--------- END OF TASK 2 --------->
+            </div>
+        </main>
+        <!-------------- END OF MAIN -------------->
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">menu</span>
+                </button>
+                <div class="theme-toggler">
+                    <span class="material-icons-sharp active">light_mode</span>
+                    <span class="material-icons-sharp">dark_mode</span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey, <b>Jesse</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="./images/profile-1.jpg" alt="profile-photo">
+                    </div>
+                </div>
+            </div>
+            <!-- END OF TOP -->
+            <div class="overall-progress">
+                <h2>Overall progress</h2>
+
+                <div class="progress">
+                    <span class="material-icons-sharp">trending_up</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Challenge count</h3>
+                            <h1>12</h1>
+                        </div>
+                        <div class="progress-bar">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    
+    <script src="./index.js"></script>
 </body>
 </html>
